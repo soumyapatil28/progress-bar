@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'theBoldFont';
+    src:url('../fonts/theboldfont.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.progress {
+    background: linear-gradient(to top right, #be79df 0%, #ffb0cd 100%);
+    width: 1%;
+    height: 100vh;
+}
+
+.pro {
+    font-family: 'theBoldFont';
+    font-size: 150px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
